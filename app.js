@@ -7,7 +7,7 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/inde.html');
+  res.sendFile(__dirname + '/index.html');
 });
 // ...
 
